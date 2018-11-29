@@ -4,12 +4,26 @@
   "description": "Darryl Amour Codesmith Solo Project - Junior Section",
   "main": "./server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./server/index.js",
+    "client": "",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darryl-amour/WatchResearchInvest.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Darryl Amour",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3"
+    "body-parser": "^1.18.3",
+    "csv-parser": "^2.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.14"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
   }
 }

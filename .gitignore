@@ -3,3 +3,4 @@ build
 client/node_modules
 node_modules
 package-lock.json
+server/data/*.csv
